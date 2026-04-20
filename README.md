@@ -1,10 +1,12 @@
-Text Sentiment Classification using RNN & LSTM
+# Text Sentiment Classification using RNN & LSTM
 
 This project implements deep learning techniques such as Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM) networks to perform sentiment classification on textual data.
 
 The system analyzes text inputs like reviews, comments, or messages and classifies them into sentiment categories such as positive, negative, or neutral. It demonstrates how sequence-based neural networks can effectively process and understand human language.
 
-Project Overview
+---
+
+# Project Overview
 
 Sentiment analysis is a key task in Natural Language Processing (NLP) that helps determine the emotional tone behind text data.
 
@@ -21,7 +23,9 @@ Performance comparison
 
 The goal is to understand how sequential models handle language data and improve sentiment prediction.
 
-Problem Statement
+---
+
+# Problem Statement
 
 Traditional machine learning models struggle with text data due to:
 
@@ -36,7 +40,9 @@ Maintaining contextual memory
 
 However, standard RNNs face limitations like vanishing gradients.
 
-LSTM networks solve this by:
+---
+
+# LSTM networks solve this by:
 
 Capturing long-term dependencies
 Maintaining better memory over sequences
@@ -75,7 +81,9 @@ Testing Set – used to evaluate performance
 
 This ensures the model can generalize to unseen data.
 
-RNN Model
+---
+
+# RNN Model
 
 A basic Recurrent Neural Network is implemented for sentiment classification.
 
@@ -96,7 +104,9 @@ Output Layer (Softmax / Sigmoid)
 
 RNN processes text sequentially, capturing short-term dependencies.
 
-LSTM Model
+---
+
+# LSTM Model
 
 An advanced LSTM model is implemented to improve performance.
 
@@ -121,6 +131,8 @@ Retaining long-term dependencies
 Avoiding vanishing gradient issues
 Improving contextual understanding
 Model Compilation
+
+---
 
 Both models are compiled using:
 
@@ -154,13 +166,14 @@ Model stability
 Model Evaluation
 
 Performance is evaluated using:
-
 Metric	Purpose
 Accuracy	Overall correctness
 Precision	Correct positive predictions
 Recall	Ability to detect all positives
 F1 Score	Balance between precision & recall
-Model Comparison
+
+---
+# Model Comparison
 
 The project compares:
 
@@ -177,7 +190,9 @@ Higher accuracy
 Conclusion:
 LSTM outperforms RNN in most sentiment analysis tasks due to better memory handling.
 
-Project Structure
+---
+
+# Project Structure
 ├── Sentiment_Analysis.ipynb
 ├── Dataset/
 └── README.md
@@ -186,7 +201,9 @@ Sequential Data Handling
 
 Understanding how models process sequences was crucial.
 
-Text Preprocessing
+---
+
+# Text Preprocessing
 
 Proper cleaning and tokenization significantly improved results.
 
@@ -194,9 +211,15 @@ RNN vs LSTM
 
 Learned why LSTM is more powerful for language tasks.
 
-Author
+---
+
+# Author
 
 Vinayak Sharma
 
-GitHub: https://github.com/vsbeginner
-LinkedIn: https://www.linkedin.com/in/vinayak-sharma-24a8aa384/
+GitHub
+https://github.com/vsbeginner
+
+LinkedIn: 
+https://www.linkedin.com/in/vinayak-sharma-24a8aa384/
+---
